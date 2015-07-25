@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
 <script>
- document.getElementById("demo").innerHTML = "My First JavaScript";
-</script> 
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
 
-<p id="demo">A Paragraph</p>
+<body>
+
+<h1>JavaScript in Head</h1>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
 </body>
-</html>
+</html> 
